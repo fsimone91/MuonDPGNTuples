@@ -12,10 +12,10 @@ cmsenv
 
 mkdir MuDPGAnalysis
 cd MuDPGAnalysis
-git clone git@github.com:gmilella12/MuonDPGNTuples.git
-
+git clone git@github.com:gmilella12/MuonDPGNTuples.git MuonDPGNtuples
 
 ### Compile
+cd CMSSW_11_2_3/src/
 scram b -j 5
 
 ## Run the NTuplizer

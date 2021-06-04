@@ -10,6 +10,8 @@ cmsrel CMSSW_11_2_3  (cmsrel CMSSW_11_2_0_pre8_Patatrack for MC)
 cd CMSSW_11_2_3/src/  (cmsrel CMSSW_11_2_0_pre8_Patatrack/src/ for MC)
 cmsenv
 
+mkdir MuDPGAnalysis
+cd MuDPGAnalysis
 git clone git@github.com:gmilella12/MuonDPGNTuples.git
 
 
